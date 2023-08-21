@@ -28,7 +28,7 @@ The example terraform apply command assumes you previously ran terraform plan -o
 If you specified a different filename for the -out parameter, use that same filename in the call to terraform apply.
 If you didn't use the -out parameter, call terraform apply without any parameters.
 
-Clean up resources:
+**Clean up resources:**
 When you no longer need the resources created via Terraform, do the following steps:
 Run terraform plan and specify the destroy flag.
 terraform plan -destroy -out main.destroy.tfplan
